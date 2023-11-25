@@ -1,0 +1,23 @@
+$GEDIT_SELECTED_TEXT - The currently selected text
+
+$GEDIT_CURRENT_WORD - The word where the cursor currently is
+
+$GEDIT_CURRENT_LINE - The line where the cursor currently is
+
+$GEDIT_CURRENT_LINE_NUMBER - The line number where the cursor currently is
+
+$GEDIT_CURRENT_DOCUMENT_URI - The current document uri
+
+$GEDIT_CURRENT_DOCUMENT_NAME - The current document name (the document basename)
+
+$GEDIT_CURRENT_DOCUMENT_SCHEME - The current document uri scheme (file/ftp/ssh)
+
+$GEDIT_CURRENT_DOCUMENT_PATH - The current document path (for local files)
+
+$GEDIT_CURRENT_DOCUMENT_DIR - The current document directory
+
+$GEDIT_CURRENT_DOCUMENT_TYPE - The current document content type
+
+$GEDIT_CURRENT_DOCUMENTS_URI - List of uris of all open documents
+
+$GEDIT_CURRENT_DOCUMENTS_PATH - List of paths of all open documents
