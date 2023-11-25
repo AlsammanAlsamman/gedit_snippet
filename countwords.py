@@ -30,7 +30,9 @@ for word in counts:
     total += counts[word]
 output += "Total words: %d\n" % total
 output += "Word\tCount\tPercent\n"
-for word in sorted(counts):
+# sort words by count
+counts = {k: v for k, v in sorted(counts.items(), key=lambda item: item[1], reverse=True)}
+for word in counts:
     output += "%s\t%d\t%.2f%%\n" % (word, counts[word], (float(counts[word])/total)*100)
 return output
 #>
