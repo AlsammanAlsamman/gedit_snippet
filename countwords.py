@@ -14,7 +14,7 @@
 # Shortcut Key: Ctrl+Shift+C
 # Drop targets: text/plain
 
-#$<
+# $<
 import re
 lines = $GEDIT_SELECTED_TEXT
 output = ""
@@ -35,4 +35,4 @@ counts = {k: v for k, v in sorted(counts.items(), key=lambda item: item[1], reve
 for word in counts:
     output += "%s\t%d\t%.2f%%\n" % (word, counts[word], (float(counts[word])/total)*100)
 return output
-#>
+# >

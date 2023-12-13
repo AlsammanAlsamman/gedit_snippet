@@ -14,7 +14,7 @@
 # Shortcut Key: Ctrl+Shift+D
 # Drop targets: text/plain
 
-#$<
+# $<
 import re
 lines = $GEDIT_SELECTED_TEXT
 output = ""
@@ -35,4 +35,4 @@ output += "Unique: " + str(uniqueCount) + "\n"
 for line in counts:
     output += line + "\n"
 return output
-#>
+# >
